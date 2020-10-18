@@ -13,9 +13,10 @@ function App(props) {
     auth.onAuthStateChanged((authUser)=>{
       if(authUser){
         //logged in
-        window.location='/'
+        window.location='/';
       }else{
         //logout
+        window.location='/';
       }
     })
   },[])
