@@ -1,4 +1,4 @@
-import React, { useState,Component } from "react";
+import React, { useState } from "react";
 import { auth,db} from '../config'
 const SignUp=()=>{
     const [fName,seFtName]=useState('')
@@ -42,7 +42,7 @@ const SignUp=()=>{
 
         <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
         <p className="forgot-password text-right">
-            Already registered <a href="#">sign in?</a>
+            Already registered <a href="!">sign in?</a>
         </p>
     </form>
     )
